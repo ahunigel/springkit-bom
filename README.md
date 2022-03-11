@@ -12,9 +12,14 @@ allprojects {
     }
 }
 ```
-## Step 2. Add the dependency
+### Step 2. Add the dependency
 ```groovy
 dependencies {
     implementation platform('com.github.ahunigel:springkit-bom:{version}')
 }
 ```
+
+## See Also
+- [spring-toolkit](https://github.com/ahunigel/spring-toolkit)
+- [spring-test-toolkit](https://github.com/ahunigel/spring-test-toolkit)
+- [spring-security-oauth2-test](https://github.com/ahunigel/spring-security-oauth2-test)
