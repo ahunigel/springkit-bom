@@ -3,9 +3,6 @@ plugins {
     id 'maven-publish'
 }
 
-group 'com.github.ahunigel'
-version project.findProperty("version")
-
 dependencies {
     constraints {
         api "com.github.ahunigel:spring-toolkit:2.2"
