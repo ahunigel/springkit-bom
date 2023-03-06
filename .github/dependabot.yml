@@ -13,5 +13,7 @@ registries:
 updates:
   - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries:
+      - github-octocat # Allow version updates for dependencies in this registry
     schedule:
       interval: "weekly"
