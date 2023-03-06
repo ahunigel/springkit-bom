@@ -19,5 +19,6 @@ updates:
     directory: "/" # Location of package manifests
     registries:
       - jitpack-io # Allow version updates for dependencies in this registry
+      - github-octocat
     schedule:
       interval: "weekly"
