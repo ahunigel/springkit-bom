@@ -25,6 +25,23 @@ publishing {
     publications {
         maven(MavenPublication) {
             from components.javaPlatform
+            
+            pom {
+                name = project.name
+                description = 'springkit maven BOMs'
+                url = 'https://github.com/ahunigel/springkit-bom'
+                developers {
+                    developer {
+                        id = 'ahunigel'
+                        name = 'Nigel Zheng'
+                        email = 'ahunigel@gmail.com'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git@github.com:ahunigel/springkit-bom.git'
+                    url = 'https://github.com/ahunigel/springkit-bom'
+                }
+            }
         }
     }
 }
