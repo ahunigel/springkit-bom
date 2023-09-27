@@ -25,11 +25,11 @@ publishing {
     publications {
         maven(MavenPublication) {
             from components.javaPlatform
-            
+
             pom {
                 name = project.name
                 description = 'springkit maven BOMs'
-                url = 'https://github.com/ahunigel/springkit-bom'
+                url = "https://github.com/ahunigel/${project.name}"
                 developers {
                     developer {
                         id = 'ahunigel'
@@ -38,8 +38,8 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:git@github.com:ahunigel/springkit-bom.git'
-                    url = 'https://github.com/ahunigel/springkit-bom'
+                    connection = "scm:git:git@github.com:ahunigel/${project.name}.git"
+                    url = "https://github.com/ahunigel/${project.name}"
                 }
             }
         }
