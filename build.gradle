@@ -7,7 +7,7 @@ dependencies {
     constraints {
         api "com.github.ahunigel:spring-toolkit:3.3.6"
         api "com.github.ahunigel:spring-test-toolkit:3.3.5"
-        api "com.github.ahunigel:spring-security-oauth2-test:3.3.6"
+        api "com.github.ahunigel:spring-security-oauth2-test:3.3.7"
     }
 }
 
