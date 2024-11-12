@@ -9,7 +9,7 @@ javaPlatform {
 
 dependencies {
     api platform("org.springframework.boot:spring-boot-dependencies:3.3.5")
-    api platform("org.springframework.cloud:spring-cloud-dependencies:2023.0.2")
+    api platform("org.springframework.cloud:spring-cloud-dependencies:2023.0.3")
 
     constraints {
         api "com.github.ahunigel:spring-toolkit:3.3.10"
