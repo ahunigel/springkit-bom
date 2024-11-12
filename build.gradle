@@ -3,7 +3,14 @@ plugins {
     id 'maven-publish'
 }
 
+javaPlatform {
+    allowDependencies()
+}
+
 dependencies {
+    api platform("org.springframework.boot:spring-boot-dependencies:3.3.1")
+    api platform("org.springframework.cloud:spring-cloud-dependencies:2023.0.2")
+
     constraints {
         api "com.github.ahunigel:spring-toolkit:3.3.10"
         api "com.github.ahunigel:spring-test-toolkit:3.3.10"
