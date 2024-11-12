@@ -12,7 +12,7 @@ dependencies {
     api platform("org.springframework.cloud:spring-cloud-dependencies:2023.0.3")
 
     constraints {
-        api "com.github.ahunigel:spring-toolkit:3.3.12"
+        api "com.github.ahunigel:spring-toolkit:3.3.14"
         api "com.github.ahunigel:spring-test-toolkit:3.3.11"
         api "com.github.ahunigel:spring-security-oauth2-test:3.3.11"
     }
