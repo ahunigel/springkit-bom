@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     constraints {
-        api "com.github.ahunigel:spring-toolkit:4.0.7"
+        api "com.github.ahunigel:spring-toolkit:4.0.8"
         api "com.github.ahunigel:spring-security-oauth2-test:4.0.4"
         api "com.github.ahunigel:spring-test-toolkit:4.0.6"
     }
